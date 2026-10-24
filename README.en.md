@@ -31,7 +31,7 @@ I also had two more aims:
 - **Chatting for advice (the way I use it most).** It answers questions and consults with me in light of what it knows about me. When it looks something up, it keeps the sources too. Anything new that comes up in the conversation is recorded in the files on the spot, so it is available in the next conversation.
 - Every morning, it puts today's schedule, deadlines and to-dos on one screen.
 - Every day, it picks AI and IT news and saves it with "facts" and "guesses" kept apart.
-- Every week, it checks my schedule and tracking table for contradictions, and the backup status.
+- Every week, it reviews the folder structure, rules, memory and scheduled runs, and proposes ways to cut waste and contradictions (it makes small cleanups itself).
 
 ## How is this different from a regular chat?
 | | Regular chat | personal-ai |
@@ -92,7 +92,7 @@ These are real mistakes from daily use and the rule each one produced. The wordi
 ## Scheduled runs (examples)
 - Every morning: summarize today's schedule, deadlines and checklist on one screen
 - Every day: pick AI and IT news and save it with facts and guesses separated
-- Every week: check the schedule, the tracking table, contradictions in memory and the backup status
+- Every week: review the folder structure, rules, memory, scheduled runs and backups to optimize the operation (small cleanups are done by the agent; bigger changes are proposals only)
 
 The procedures live in `00-rules/`, and results are saved to `03-output/`.
 
