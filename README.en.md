@@ -105,7 +105,7 @@ The procedures live in `00-rules/`, and results are saved to `03-output/`.
 
 ## Track record (as of 2026-10-24, my own setup)
 - Started on 2026-10-05; 20 days in (commits on 12 of them)
-- 257 commits
+- 262 commits
 - 8 rule files (`00-rules/`) and 14 knowledge files (`02-knowledge/`)
 - 3 scheduled runs (morning summary, news, weekly review); the morning summary and the news are saved automatically every day (while the Mac and the app are running)
 
