@@ -31,7 +31,7 @@ I also had two more aims:
 - **Chatting for advice (the way I use it most).** It answers questions and consults with me in light of what it knows about me. When it looks something up, it keeps the sources too. Anything new that comes up in the conversation is recorded in the files on the spot, so it is available in the next conversation.
 - Every morning, it puts today's schedule, deadlines and to-dos on one screen.
 - Every day, it picks AI and IT news and saves it with "facts" and "guesses" kept apart.
-- Every week, it reviews the folder structure, rules, memory and scheduled runs, and proposes ways to cut waste and contradictions (it makes small cleanups itself).
+- Every week, it reviews the folder structure, rules, memory and scheduled runs, and proposes ways to cut waste and contradictions (it leaves the doing to me, after I approve).
 
 ## How is this different from a regular chat?
 | | Regular chat | personal-ai |
@@ -92,7 +92,7 @@ These are real mistakes from daily use and the rule each one produced. The wordi
 ## Scheduled runs (examples)
 - Every morning: summarize today's schedule, deadlines and checklist on one screen
 - Every day: pick AI and IT news and save it with facts and guesses separated
-- Every week: review the folder structure, rules, memory, scheduled runs and backups to optimize the operation (small cleanups are done by the agent; bigger changes are proposals only)
+- Every week: review the folder structure, rules, memory, scheduled runs and backups to optimize the operation (findings are written up as proposals; I approve before anything is changed)
 
 The procedures live in `00-rules/`, and results are saved to `03-output/`.
 
@@ -103,10 +103,9 @@ The procedures live in `00-rules/`, and results are saved to `03-output/`.
 4. When the agent makes a mistake in use, add a rule
 5. Once it feels natural, add scheduled runs
 
-## Track record (as of 2026-10-24, my own setup)
-- Started on 2026-10-05; 20 days in (commits on 12 of them)
-- 288 commits
-- 8 rule files (`00-rules/`) and 14 knowledge files (`02-knowledge/`)
+## Track record (as of 2026-11-07, my own setup)
+- Started on 2026-10-05
+- 8 rule files (`00-rules/`) and 17 knowledge files (`02-knowledge/`)
 - 3 scheduled runs (morning summary, news, weekly review); the morning summary and the news are saved automatically every day (while the Mac and the app are running)
 
 ## Next
