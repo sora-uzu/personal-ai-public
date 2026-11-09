@@ -103,10 +103,10 @@ The procedures live in `00-rules/`, and results are saved to `03-output/`.
 4. When the agent makes a mistake in use, add a rule
 5. Once it feels natural, add scheduled runs
 
-## Track record (as of 2026-11-07, my own setup)
+## Track record (my own setup)
 - Started on 2026-10-05
-- 8 rule files (`00-rules/`) and 17 knowledge files (`02-knowledge/`)
-- 3 scheduled runs (morning summary, news, weekly review); the morning summary and the news are saved automatically every day (while the Mac and the app are running)
+- Rules live in `00-rules/` and knowledge in `02-knowledge/`, one file per topic
+- Scheduled runs: morning summary, news, weekly review; the morning summary and the news are saved automatically every day (while the Mac and the app are running)
 
 ## Next
 - Measure the effect (files read per question, mistakes before and after a rule is added)
